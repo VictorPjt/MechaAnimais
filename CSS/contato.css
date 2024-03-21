@@ -19,7 +19,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     color: #1C1C1C;
-    background-color: #65318c;
+    background-color: #3EC674;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -35,7 +35,7 @@ section.contato{
 }
 
 section h1 {
-    color: #65318c;
+    color: #3EC674;
     font-size: 2.5rem;
     margin: 2rem;
 }
