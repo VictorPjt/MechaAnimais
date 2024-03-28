@@ -1,0 +1,55 @@
+/* Estilos para o conteúdo geral */
+.content {
+    padding: 20px;
+    background-color: #c6c7c5; /* Cor de fundo */
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+
+#logo {
+    max-width: 50px;
+}
+
+
+.menu {
+    text-align: center;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-item {
+    margin-right: 17px;
+}
+
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+.nav-link:hover {
+    background-color: #39A263; */
+    color: #fff; 
+}
+

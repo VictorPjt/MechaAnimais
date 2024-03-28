@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.categorias {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.categorias button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #39A263;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.categorias button:hover {
+    background-color: #2E7E4E;
+}
+
+.carrossel-container {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.carrossel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.slide .descricao {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slide .descricao h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.slide .descricao p {
+    margin-bottom: 0;
+    color: #666;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #39A263;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #2E7E4E;
+}
