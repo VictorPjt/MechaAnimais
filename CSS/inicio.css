@@ -17,7 +17,6 @@
     max-width: 50px;
 }
 
-
 .menu {
     text-align: center;
 }
@@ -49,7 +48,6 @@
 
 
 .nav-link:hover {
-    background-color: #39A263; */
+    background-color: #39A263;
     color: #fff; 
 }
-
