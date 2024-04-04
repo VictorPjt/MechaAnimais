@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção de Cães</title>
+    <link rel="stylesheet" href="CSS/adocao.css">
+</head>
+<body>
+    <h1>Adoção de Cães</h1>
+
+    <div class="categorias">
+        <button onclick="filtrarAnimais('cachorro')">Cachorro</button>
+        <button onclick="filtrarAnimais('gato')">Gato</button>
+        <button onclick="filtrarAnimais('outros')">Outros</button>
+    </div>
+
+    <div class="carrossel-container">
+        <div class="carrossel" id="carrossel">
+            <div class="slide cachorro">
+                <img src="img/Chihuahuas.jpg" alt="...">
+                <div class="descricao">
+                    <h2>Chihuahuas</h2>
+                    <p>Cachorro dócil à procura de um lar amoroso.</p>
+                </div>
+            </div>
+            <div class="slide gato">
+                <img src="img/gatocinza.webp" alt="Manx">
+                <div class="descricao">
+                    <h2>Manx</h2>
+                    <p>Gato brincalhão em busca de uma família.</p>
+                <p>Cor:Cinza</p>
+                <p>Raça:Manx</p>
+                <p></p>
+                </div>
+            </div>
+            
+        </div>
+        <button class="prev" onclick="prevSlide()">❮</button>
+        <button class="next" onclick="nextSlide()">❯</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
