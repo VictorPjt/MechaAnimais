@@ -1,3 +1,14 @@
+:root{
+    --platinum: #d9d9d9ff;
+    --floral-white: #fffcf4ff;
+    --nyanza: #cfefd4ff;
+    --light-green: #5ae491ff;
+    --emerald: #3ec674ff;
+    --shamrock-green: #34965bff;
+    --hunter-green: #2a6542ff;
+}
+
+
 section.logo img{
     width: 200px;
     display: flex;
@@ -5,13 +16,54 @@ section.logo img{
     justify-content: center;
 }
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- 
  }
+
+.content {
+    padding: 20px;
+    background-color: #c6c7c5;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-right: 17px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #39A263;
+    color: #fff; 
+}
 
 body{
     display: flex;
@@ -19,7 +71,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     color: #1C1C1C;
-    background-color: #3EC674;
+    background-color: #5ae491ff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -36,13 +88,19 @@ section.contato{
 
 nav-bar h2{
     color: #ffffff;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin: 0px;
 }
 
-section h1 {
+section h1{
     color: #3EC674;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
+    margin: 0px;
+}
+
+h3{
+    color: #000000;
+    font-size: 1rem;
     margin: 0px;
 }
 
@@ -52,13 +110,11 @@ section form{
     width: 100%;    
 }
 
-form p {
+form p{
     color: #1C1C1C;
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 4px;
 }
-
-
 
 form input {
     padding: 15px;

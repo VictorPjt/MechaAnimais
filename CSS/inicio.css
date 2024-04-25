@@ -4,14 +4,12 @@
     background-color: #c6c7c5; /* Cor de fundo */
 }
 
-
 .logo-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1px;
 }
-
 
 #logo {
     max-width: 50px;
